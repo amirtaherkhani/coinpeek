@@ -9,7 +9,7 @@ The **Domain** layer contains the core business rules for CoinPeek. It is **fram
 
 ## 🧱 What goes where
 
-### Entities/
+### Entities
 **Purpose:** Business objects that have an **identity** and domain behavior.
 **Files:**
 - **CryptoAssetEntity.swift** – Core asset (id/symbol/name).
