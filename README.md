@@ -1,6 +1,6 @@
 # CoinPeek
 
-> **CoinPeek** is a real-time crypto widget app for **macOS** and **iOS**, delivering live prices and market insights from multiple providers in a sleek, customizable interface.
+> ### **CoinPeek** is a real-time crypto widget app for **macOS** and **iOS**, delivering live prices and market insights from multiple providers in a sleek, customizable interface.
 
 ---
 
@@ -17,7 +17,7 @@
 ## 🧩 Architecture Overview
 
 > The app follows a clean, layered architecture inspired by **MVVM**, **Clean Architecture**, and **modular event-driven** patterns. It is designed to be testable, extensible, and highly reusable.
-
+![Architecture Diagram](assets/architecture.png)
 ---
 
 ## 🔷 Architecture Layers
