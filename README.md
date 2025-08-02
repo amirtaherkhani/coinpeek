@@ -148,25 +148,14 @@ CoinPeek/
 * Snapshot tests for SwiftUI widgets
 * Integration tests for data pipelines and socket events
 
----
-
-## 📚 Technologies Used
-
-| Purpose            | Tools                                  |
-| ------------------ | -------------------------------------- |
-| **UI**             | SwiftUI                                |
-| **State/Events**   | Combine / async/await                  |
-| **Real-Time Data** | Socket.IO via `socket.io-client-swift` |
-| **Storage**        | UserDefaults, FileManager, SQLite      |
-| **Network**        | URLSession                             |
 
 ---
 
 ## 📄 License
 
-**MIT © 2025 Amir Taherkhani**
+**MIT © 2025   GNU GENERAL PUBLIC LICENSE**
 
----
+
 
 ## 🤝 Contributing
 
