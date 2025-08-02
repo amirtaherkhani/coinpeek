@@ -162,5 +162,15 @@ CoinPeek/
 Feel free to open issues or submit PRs if you’d like to extend functionality, fix bugs, or contribute crypto provider integrations.
 
 ---
+<p align="center">
+  <a href="https://apps.apple.com/app/idYOUR_APP_ID">
+    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" height="50">
+  </a>
+
+  <a href="https://apps.apple.com/app/idYOUR_MAC_APP_ID">
+    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-mac-app-store.svg" alt="Download on the Mac App Store" height="50">
+  </a>
+</p>
+
 
 **CoinPeek – Real-time market insights at a glance.**
