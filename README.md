@@ -34,6 +34,25 @@
   <img src="https://img.shields.io/badge/Xcode-15.4-blue?style=flat-square&logo=xcode&logoColor=white">
   <img src="https://img.shields.io/badge/Swift-5.10-F54A2A?style=flat-square&logo=swift&logoColor=white">
 </p>
+
+
+<p align="center">
+  <a href="https://github.com/amirtaherkhani/coinpeek/issues">
+    <img alt="Open Issues" src="https://img.shields.io/github/issues/amirtaherkhani/coinpeek?style=flat-square">
+  </a>
+  <a href="https://github.com/amirtaherkhani/coinpeek/pulls">
+    <img alt="Open PRs" src="https://img.shields.io/github/issues-pr/amirtaherkhani/coinpeek?style=flat-square">
+  </a>
+  <a href="https://github.com/users/amirtaherkhani/projects/3">
+    <img alt="Project Board" src="https://img.shields.io/badge/Project-CoinPeek%20Roadmap-4c1?style=flat-square">
+  </a>
+  <a href="https://github.com/amirtaherkhani/coinpeek/commits/main">
+    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/amirtaherkhani/coinpeek?style=flat-square">
+  </a>
+  <a href="https://github.com/amirtaherkhani/coinpeek/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/github/license/amirtaherkhani/coinpeek?style=flat-square">
+  </a>
+</p>
   
 ## 🧩 Architecture Overview
 
@@ -184,7 +203,26 @@ CoinPeek will support major global exchanges and selected Iranian market provide
 - [ ] Exir (Iran)
 - [ ] Bitpin (Iran)
 
-##
+## ROADMAP
+
+<!-- ROADMAP:START -->
+<!-- This section is auto-generated. Do not edit manually. -->
+<!-- ROADMAP:END -->
+
+
+## 📈 Project Metrics
+![Metrics](https://raw.githubusercontent.com/amirtaherkhani/amirtaherkhani/main/github-metrics.svg)
+
+
+
+**Providers:** 
+[WalletX](https://github.com/amirtaherkhani/coinpeek/issues?q=is%3Aissue+label%3A%22phase%3A3a%22) ·
+[Binance](https://github.com/amirtaherkhani/coinpeek/issues?q=is%3Aissue+label%3A%22phase%3A3b%22)
+
+**By area:** 
+[Core](https://github.com/amirtaherkhani/coinpeek/issues?q=is%3Aissue+label%3Aarea%3Acore) ·
+[UI](https://github.com/amirtaherkhani/coinpeek/issues?q=is%3Aissue+label%3Aarea%3Aui)
+
 
 ## 🤝 Contributing
 
