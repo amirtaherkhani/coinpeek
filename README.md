@@ -1,32 +1,40 @@
 # CoinPeek 
+
 <p align="center">
   <img src="assets/logo.svg" alt="Architecture Diagram" />
 </p>
 
-> #### **CoinPeek** is a real-time crypto widget app for **macOS** and **iOS**, delivering live prices and market insights from multiple providers in a sleek, customizable interface.
+<p align="center">
+  <strong>CoinPeek – Real-time market insights at a glance.</strong>
+</p>
+
+<p align="center">
+  <em>CoinPeek is a real-time crypto widget app for macOS and iOS, delivering live prices and market insights from multiple providers in a sleek, customizable interface.</em>
+</p>
 
 ---
 
 ## 🚀 CoinPeek – Crypto Widget Swift
-> A modular, scalable, real-time cryptocurrency widget app built with **Swift**, **SwiftUI**, and **Socket.IO**, designed for the macOS ecosystem.
-> CoinPeek allows users to select, configure, and display dynamic crypto widgets on their desktop or navbar — powered by multiple data providers.
-> 
 <p align="center">
-  <img src="https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white" height="80" width="120">
-  <img src="https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0" height="80" width="120">
+  A modular, scalable, real-time cryptocurrency widget app built with <strong>Swift</strong>, <strong>SwiftUI</strong>, and <strong>Socket.IO</strong>, designed for the macOS ecosystem.<br>
+  CoinPeek allows users to select, configure, and display dynamic crypto widgets on their desktop or navbar — powered by multiple data providers.
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white" height="40">
+  <img src="https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0" height="40">
+</p>
 
 ##
 
+
 <p align="center">
-  <img src="https://img.shields.io/github/v/release/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME?style=flat">
-  <img src="https://img.shields.io/github/actions/workflow/status/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/CI.yml?style=flat">
-  <img src="https://img.shields.io/badge/Xcode-15.4-blue?style=flat&logo=xcode&logoColor=white">
-  <img src="https://img.shields.io/badge/Swift-5.10-F54A2A?style=flat&logo=swift&logoColor=white">
+  <img src="https://img.shields.io/github/v/release/amirtaherkhani/coinpeek?style=flat-square&logo=github">
+  <img src="https://img.shields.io/github/actions/workflow/status/amirtaherkhani/coinpeek/CI.yml?style=flat-square&logo=github">
+  <img src="https://img.shields.io/badge/Xcode-15.4-blue?style=flat-square&logo=xcode&logoColor=white">
+  <img src="https://img.shields.io/badge/Swift-5.10-F54A2A?style=flat-square&logo=swift&logoColor=white">
 </p>
-
-
+  
 ## 🧩 Architecture Overview
 
 > The app follows a clean, layered architecture inspired by **MVVM**, **Clean Architecture**, and **modular event-driven** patterns. It is designed to be testable, extensible, and highly reusable.
