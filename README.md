@@ -167,15 +167,32 @@ CoinPeek/
 
 ---
 
-## 📄 License
+## ₿ Providers Integration Roadmap
 
-**MIT © 2025   GNU GENERAL PUBLIC LICENSE**
+CoinPeek will support major global exchanges and selected Iranian market providers for broader accessibility.
 
+- [ ] Binance
+- [ ] Coinbase Pro
+- [ ] Kraken
+- [ ] KuCoin
+- [ ] Bybit
+- [ ] OKX
+- [ ] CoinGecko
+- [ ] CryptoCompare
+- [ ] Nobitex (Iran)
+- [x] Wallex (Iran)
+- [ ] Exir (Iran)
+- [ ] Bitpin (Iran)
 
+##
 
 ## 🤝 Contributing
 
-Feel free to open issues or submit PRs if you’d like to extend functionality, fix bugs, or contribute crypto provider integrations.
+**MIT © 2025   GNU GENERAL PUBLIC LICENSE**
+
+Feel free to open issues or submit PRs if you’d like to extend functionality, **`fix bugs`**, or contribute **`crypto provider integrations`**.
+
+##
 
 <p align="center" style="font-size:18px;">
   <strong>CoinPeek – Real-time market insights at a glance.</strong>
