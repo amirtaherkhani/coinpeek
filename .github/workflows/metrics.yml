@@ -1,0 +1,26 @@
+name: Metrics
+on:
+  schedule: [{cron: "0 0 * * *"}]  # daily
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: amirtaherkhani
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Tehran
+          repositories_forks: yes
+          plugin_achievements: yes
+          plugin_followup: yes
+          plugin_traffic: yes
+          plugin_stars: yes
+          plugin_topics: yes
+          plugin_topics_limit: 12
+          plugin_topics_mode: starred
+          committer_message: "docs(readme): update metrics"
