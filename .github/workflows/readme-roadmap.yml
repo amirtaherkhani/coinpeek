@@ -1,0 +1,65 @@
+name: Update README Roadmap
+on:
+  schedule: [{cron: "0 */12 * * *"}]  # every 12h
+  workflow_dispatch: {}
+permissions:
+  contents: write
+  issues: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate roadmap markdown
+        run: |
+          cat > roadmap.md <<'EOF'
+          ### 📍 Roadmap Snapshot
+
+          **Core phases**
+          EOF
+
+          echo "" >> roadmap.md
+          echo "| # | Title | Labels |" >> roadmap.md
+          echo "|---|-------|--------|" >> roadmap.md
+          gh issue list -R amirtaherkhani/coinpeek \
+            --label "phase:0,phase:1,phase:2,phase:3a,phase:3b,phase:4,phase:5,phase:6,phase:7,phase:8,phase:9,phase:10,phase:11" \
+            --state open --limit 20 --json number,title,labels,url \
+            --jq '.[] | "| \(.number) | [\(.title)](\(.url)) | \(.labels | map(.name) | join(", ")) |"' \
+            >> roadmap.md
+
+          echo -e "\n**Project Board:** https://github.com/users/amirtaherkhani/projects/3" >> roadmap.md
+
+      - name: Inject into README
+        run: |
+          START="<!-- ROADMAP:START -->"
+          END="<!-- ROADMAP:END -->"
+          CONTENT="$(cat roadmap.md)"
+          awk -v start="$START" -v end="$END" -v content="$CONTENT" '
+            BEGIN{printed=0}
+            {print}
+            index($0,start){print content; skip=1; next}
+            skip && index($0,end){skip=0; printed=1; next}
+            skip{next}
+          ' README.md > README.tmp
+
+          # If markers weren't present, append at end
+          if ! grep -q "$START" README.md; then
+            printf "\n%s\n%s\n%s\n" "$START" "$CONTENT" "$END" >> README.tmp
+          fi
+
+          mv README.tmp README.md
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet; then
+            echo "No changes."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "docs(readme): update roadmap snapshot"
+            git push
+          fi
+      - name: Show output
+        run: cat roadmap.md
