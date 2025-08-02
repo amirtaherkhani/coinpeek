@@ -1,5 +1,8 @@
 # CoinPeek 
-![Architecture Diagram](assets/logo.svg)
+<p align="center">
+  <img src="assets/logo.svg" alt="Architecture Diagram" />
+</p>
+
 > ### **CoinPeek** is a real-time crypto widget app for **macOS** and **iOS**, delivering live prices and market insights from multiple providers in a sleek, customizable interface.
 
 ---
