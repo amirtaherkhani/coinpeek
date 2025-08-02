@@ -9,7 +9,7 @@ The **Domain** layer contains the core business rules for CoinPeek. It is **fram
 
 ## 🧱 What goes where
 
-### Entities/
+### Entities
 **Purpose:** Business objects that have an **identity** and domain behavior.
 **Files:**
 - **CryptoAssetEntity.swift** – Core asset (id/symbol/name).
@@ -20,31 +20,31 @@ The **Domain** layer contains the core business rules for CoinPeek. It is **fram
 
 > Entities may *compose ValueObjects*; keep them small and immutable.
 
-### Enums/
+### Enums
 **Purpose:** Closed sets of domain concepts.
 **Files:**
 - **CurrencyTypeEnum.swift** – Supported fiat/crypto currency codes (domain-level).
 - **ProviderKeyEnum.swift** – Known provider identifiers (e.g., binance, coinbase, mock).
 - **UpdateIntervalEnum.swift** – Canonical refresh intervals (e.g., s5, s30, m1).
 
-### Protocols/
+### Protocols
 **Purpose:** Abstract contracts that **decouple Domain** from Infrastructure/UI.
 - **CryptoProviderProtocol.swift** – Market data interface (list pairs, latest price, streams).
 - **WidgetRenderableProtocol.swift** – Domain-facing widget model contract (snapshot + observe).
 - **RepositoryProtocol.swift** – Generic persistence contract for domain entities.
 
-### Errors/
+### Errors
 - **DomainError.swift** – Domain-specific failures (invalid value, unsupported currency, etc.).
   Map these to user-facing messages in higher layers.
 
-### ValueObjects/
+### ValueObjects
 **Purpose:** Small, immutable, identity-less types with built-in validation & helpers.
 - **MoneyValue.swift** – Amount + currency; safe compare within same currency.
 - **PercentageValue.swift** – Percentage change with convenience predicates.
 - **TickerSymbolValue.swift** – Uppercased symbol (A–Z, length-limited).
 - **TimestampValue.swift** – Validated Unix seconds, comparable + `Date` accessor.
 
-### Validation/ (optional)
+### Validation
 - **Validator.swift** – Tiny combinator to build simple runtime checks (Zod-like without a dependency).
   Use only if it improves clarity—most validation should live in VO initializers.
 
