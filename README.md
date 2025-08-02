@@ -9,8 +9,10 @@
 
 ## 🚀 CoinPeek – Crypto Widget Swift
 
-![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge\&logo=swift\&logoColor=white) ![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge\&logo=macos\&logoColor=F0F0F0)
-
+<p align="center">
+  <img src="https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white" height="80" width="120">
+  <img src="https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0" height="80" width="120">
+</p>
 > A modular, scalable, real-time cryptocurrency widget app built with **Swift**, **SwiftUI**, and **Socket.IO**, designed for the macOS ecosystem.
 >
 > CoinPeek allows users to select, configure, and display dynamic crypto widgets on their desktop or navbar — powered by multiple data providers.
