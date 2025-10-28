@@ -206,6 +206,13 @@ CoinPeek will support major global exchanges and selected Iranian market provide
 ## ROADMAP
 
 <!-- ROADMAP:START -->
+### Roadmap Snapshot
+**Core phases**
+
+| # | Title | Labels |
+|---|-------|--------|
+
+**Project Board:** https://github.com/users/amirtaherkhani/projects/3
 <!-- This section is auto-generated. Do not edit manually. -->
 <!-- ROADMAP:END -->
 
