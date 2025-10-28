@@ -218,9 +218,9 @@ CoinPeek will support major global exchanges and selected Iranian market provide
 
 
 ## 📈 Project Metrics
-![Metrics](https://raw.githubusercontent.com/amirtaherkhani/amirtaherkhani/main/github-metrics.svg)
-
-
+<div align="center">
+  <img src="github-metrics.svg" alt="GitHub Metrics">
+</div>
 
 **Providers:** 
 [WalletX](https://github.com/amirtaherkhani/coinpeek/issues?q=is%3Aissue+label%3A%22phase%3A3a%22) ·
